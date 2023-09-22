@@ -45,7 +45,7 @@ class Calcular:
     def _gerar_valor(self: object) -> int:
         if self.dificuldade == 1:
             return randint(0, 10)
-        elif self.diculdade == 2:
+        elif self.dificuldade == 2:
             return randint(0, 100)
         elif self.dificuldade == 3:
             return randint(0, 1000)
